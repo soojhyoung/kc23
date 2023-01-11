@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "status-bar.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 600px;
+  margin: 5px;
+  padding: 5px;
+}
+h1 {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 20px 0px 10px 0px;
+}
+h2 {
+  font-size: 14px;
+  margin: 3px;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 3px;
+  margin: 3px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+img {
+  width: 85px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.sc__status-bar {
+  display: flex;
+  justify-content: center;
+  background-color: var(--yellow);
+  padding: 25px 15px;
+  margin-bottom: -15px;
+}
+.sc__status-bar__column {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  align-items: center;
+}
+.sc__status-bar__column:first-child span {
+  margin-right: 5px;
+}
+.sc__status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+.sc__status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sc__search-bar__box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 20px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.sc__search-bar__box__in {
+  border-style: none;
+}
+.sc__search-bar__box__in::placeholder {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.sc__bt {
+  margin-left: 10px;
+  padding-left: 30px;
+}
+.sc__bt__botd {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.sc__bt__botd__infm {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.sc__bt__botd__infm__title {
+  margin-bottom: 2px;
+}
+
+.sc__bt__botd__infm__btn1 {
+  margin: 7px 0px;
+}
+.sc__bt__botd__infm__btn1 > span {
+  font-size: 2px;
+  background-color: rgb(225, 225, 225);
+  border-radius: 5px;
+  padding: 1px;
+  margin: 1px;
+}
+.sc__bt__botd__infm__btn2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.sc__bt__botd__box {
+  display: flex;
+  flex-direction: row;
+}
+
+.sc__bt {
+  margin-left: -5px;
+}
+
+.sc__bt__ta {
+  margin: 20px 0px 15px 0px;
+}
+.sc__bt__ta__img {
+  height: 85px;
+  width: 220px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.sc__bt__ta__img::-webkit-scrollbar {
+  display: none;
+}
+
+.sc__bt__pa__box {
+  display: flex;
+  margin: 18px 0px 20px 0px;
+}
+
+.sc__bt__pa__box__tx {
+  margin-left: 15px;
+  padding-right: 15px;
+}
