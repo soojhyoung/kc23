@@ -1,0 +1,66 @@
+.status__menu {
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  z-index: 10;
+}
+.search-bar {
+  width: 92vw;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 22px;
+  margin-left: 22px;
+  margin-bottom: 30px;
+}
+
+.trip {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  z-index: 1;
+  margin-left: 30px;
+}
+
+.trip__img:first-child {
+  margin-top: 400px;
+}
+.trip h3 {
+  opacity: 0.6;
+  margin: 3px 0px;
+}
+.trip h5 {
+  margin-top: 6px;
+}
+.trip__img img {
+  width: 410px;
+  height: 410px;
+  border-radius: 40px;
+}
+.trip .trip__icon {
+  position: absolute;
+  right: 50px;
+  bottom: 210px;
+  color: white;
+  transition: transform 1s ease-in-out;
+}
+
+.trip .trip__icon:hover {
+  position: absolute;
+  right: 50px;
+  bottom: 210px;
+  color: red;
+  transform: scale(2);
+}
+
+.trip__inf {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}

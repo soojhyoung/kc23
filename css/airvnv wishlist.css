@@ -1,0 +1,21 @@
+.user-component__column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.user-component__text {
+  margin-left: 20px;
+}
+
+.user-component__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

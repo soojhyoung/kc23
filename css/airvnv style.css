@@ -10,18 +10,18 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/no-mobile.css";
-
 /* Screens */
-@import "screens/login.css";
-@import "screens/friends.css";
-@import "screens/find.css";
-@import "screens/more.css";
-@import "screens/settings.css";
-@import "screens/chat.css";
+@import "airvnv login.css";
+@import "airvnv search.css";
+@import "airvnv wishlist.css";
+@import "airvnv trip.css";
+@import "airvnv message.css";
+@import "airvnv profile.css";
 
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  height: 150vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);

@@ -41,10 +41,11 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: tomato;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+  color: white;
 }
 
 #login-form a {
@@ -52,4 +53,10 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+#login-form span {
+  text-align: center;
+  width: 88vw;
+  margin-bottom: 30px;
 }

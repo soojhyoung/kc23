@@ -1,0 +1,31 @@
+.message-header {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.message-header__title {
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.message-header__secondbox {
+  display: flex;
+  flex-direction: row;
+  margin: 17px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+.message-header__secondbox .ms1 {
+  margin-right: 20px;
+  font-weight: 900;
+}
+.message-header__thirdbox .mt1 {
+  font-size: 20px;
+  margin: 20px 15px;
+}
+.message-header__thirdbox .mt2 {
+  font-size: 15px;
+  margin: 15px;
+}
