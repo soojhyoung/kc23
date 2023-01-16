@@ -10,13 +10,14 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/no-mobile.css";
+
 /* Screens */
-@import "airvnv login.css";
-@import "airvnv search.css";
-@import "airvnv wishlist.css";
-@import "airvnv trip.css";
-@import "airvnv message.css";
-@import "airvnv profile.css";
+@import "airvnv__login.css";
+@import "airvnv__search.css";
+@import "airvnv__wishlist.css";
+@import "airvnv__trip.css";
+@import "airvnv__message.css";
+@import "airvnv__profile.css";
 
 body {
   color: #2e363e;
